@@ -1,0 +1,156 @@
+{
+	"id": "420c59f3-0ea7-4bb7-b57e-79d241119ac9",
+	"name": "springboot武理商城",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"23ed7f55-d1aa-4e70-bdcf-29aa6d8a854a",
+		"5dc2960f-0a78-4f09-ab4e-c6d85807c960",
+		"b82ef0e4-11ab-4e30-8d7e-531913891eca",
+		"d94473b1-5c0f-4345-8355-284ef7d1a3c4",
+		"8b7007c7-f99c-4b44-bc38-08bd333acd34"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "23ed7f55-d1aa-4e70-bdcf-29aa6d8a854a",
+			"name": "http://localhost:8081/shop/verificationcodeimg?it=0.002943888667626071",
+			"url": "http://localhost:8081/shop/verificationcodeimg?it=0.002943888667626071",
+			"description": "前端页面获取验证码",
+			"data": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "it",
+					"value": "0.002943888667626071",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "5dc2960f-0a78-4f09-ab4e-c6d85807c960",
+			"name": "http://localhost:8081/shop/loginconfirm",
+			"url": "http://localhost:8081/shop/loginconfirm",
+			"description": "前端页面登录",
+			"data": [
+				{
+					"key": "username",
+					"value": "xieshugui",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "zx19961215",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "confirmlogo",
+					"value": "wry4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "8b7007c7-f99c-4b44-bc38-08bd333acd34",
+			"name": "http://localhost:8081/shop/admin/user/showjson",
+			"url": "http://localhost:8081/shop/admin/user/showjson",
+			"description": "管理员查所有用户",
+			"data": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "b82ef0e4-11ab-4e30-8d7e-531913891eca",
+			"name": "http://localhost:8081/shop/admin/confirmLogin",
+			"url": "http://localhost:8081/shop/admin/confirmLogin",
+			"description": "管理员登录",
+			"data": [
+				{
+					"key": "adminname",
+					"value": "admin",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"pathVariables": {}
+		},
+		{
+			"id": "d94473b1-5c0f-4345-8355-284ef7d1a3c4",
+			"name": "http://localhost:8081/shop/admin/goods/showjson?page=1",
+			"url": "http://localhost:8081/shop/admin/goods/showjson?page=1",
+			"description": "管理员查所有商品",
+			"data": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		}
+	]
+}
