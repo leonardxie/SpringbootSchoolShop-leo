@@ -22,6 +22,6 @@
 
   后台：springboot 
 
-运行方式，在安装好环境之后，运行SpringbootSchoolShopApplication文件，本地打开网站http://localhost:8081/shop即可运行使用系统。
+运行方式，在安装好环境之后，运行SpringbootSchoolShopApplication文件，本地打开网站http://localhost:8081/shop即可运行使用系统。账号密码数据库中有，其中密码采用md5加密了，想要登陆的话可以找一个md5解密网站，来获取密码
 
 本系统已经部署到git远程仓库，地址为https://github.com/leonardxie/SpringbootSchoolShop-leo
