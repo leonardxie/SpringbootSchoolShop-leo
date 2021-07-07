@@ -23,3 +23,5 @@
   后台：springboot 
 
 运行方式，在安装好环境之后，运行SpringbootSchoolShopApplication文件，本地打开网站http://localhost:8081/shop即可运行使用系统。
+
+本系统已经部署到git远程仓库，地址为https://github.com/leonardxie/SpringbootSchoolShop-leo
